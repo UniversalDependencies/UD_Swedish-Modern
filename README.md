@@ -35,7 +35,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Ahrenberg, Lars; Borin, Lars; Berntsson Ingelstam, Astrid; Nivre, Joakim; Pettersson, Eva; Stymne, Sara
+Contributors: Ahrenberg, Lars; Borin, Lars; Högberg, Linus; Lindqvist, Ellinor; Nivre, Joakim; Pettersson, Eva; Stoykova, Yanitsa; Stymne, Sara
 Contributing: here
 Contact: joakim.nivre@lingfil.uu.se
 ===============================================================================
