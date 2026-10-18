@@ -9,7 +9,7 @@ UD Swedish-Modern is a treebank containing texts from the Modern Swedish period,
 
 Currently, the treebank contains text from only one source: the 1526 Swedish New Testament translation, covering the Gospel of Mark. Since the treebank is very small, there is currently only test data and no training or development data. 
 
-The text is based on the new release of the 1526 New Testament, by Lasse Mårtensson.
+The text is based on the 2026 release of the 1526 New Testament, by Lasse Mårtensson.
 
 
 # Acknowledgments
