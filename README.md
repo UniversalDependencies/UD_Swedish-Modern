@@ -16,7 +16,7 @@ The text is based on the 2026 release of the 1526 New Testament, by Lasse Mårte
 
 This work is funded by the Swedish national research infrastructure Språkbanken, jointly financially supported by the Swedish Research Council (2025–2028; grant 2023-00161) and the 10 participating partner institutions. We acknowledge the support of the UniDive COST Action (CA21167).
 
-We would like to thank Anastasiia Aleksandrova, Arianna Mascilolini, and Maria Irena Szawerna for input on annotation and discussions.
+We would like to thank Anastasiia Aleksandrova, Arianna Mascilolini, and Maria Irena Szawerna for input on annotation and discussions, and David Håkansson for discussions about Modern Swedish.
 
 ## References
 
