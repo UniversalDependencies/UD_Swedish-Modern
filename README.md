@@ -20,6 +20,8 @@ We would like to thank Anastasiia Aleksandrova, Arianna Mascilolini, and Maria I
 
 ## References
 
+Mårtensson, L. (ed.). *Nya testamentet 1526*. [Edition with an introduction and word explanations.] (Sällskapet Runica et Mediævalia, 2026).
+
 Pettersson, J., Mårtensson, L., Pleijel, R. & Williams, H. (ed.). *Nya testamentet på svenska 1526 : Boken, språket och teologin*. (Sällskapet Runica et Mediævalia, 2026).
 
 # Changelog
