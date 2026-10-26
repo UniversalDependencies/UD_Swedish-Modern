@@ -17726,10 +17726,10 @@
 9	röst	_	NOUN	_	_	5	obl	_	Ref=MRK_15.34
 10	säyandes	_	VERB	_	_	5	advcl	_	Ref=MRK_15.34
 11	/	_	PUNCT	_	_	12	punct	_	ModernForm=:|Ref=MRK_15.34
-12	Eloi	_	X	Foreign=Yes	_	10	ccomp	_	Ref=MRK_15.34
-13	eloi	_	X	Foreign=Yes	_	12	flat:foreign	_	Ref=MRK_15.34
+12	Eloi	_	X	_	Foreign=Yes	10	ccomp	_	Ref=MRK_15.34
+13	eloi	_	X	_	Foreign=Yes	12	flat:foreign	_	Ref=MRK_15.34
 14	/	_	PUNCT	_	_	15	punct	_	Ref=MRK_15.34
-15	lamazabactani	_	X	Foreign=Yes	_	12	flat:foreign	_	Ref=MRK_15.34
+15	lamazabactani	_	X	_	Foreign=Yes	12	flat:foreign	_	Ref=MRK_15.34
 16	/	_	PUNCT	_	_	5	punct	_	ModernForm=.|Ref=MRK_15.34
 
 # sent_id = swedish-modern-nt1526-696
