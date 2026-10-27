@@ -589,7 +589,7 @@
 15	ath	_	SCONJ	_	_	17	mark	_	Ref=MRK_1.27
 16	the	_	PRON	_	_	17	nsubj	_	Ref=MRK_1.27
 17	sporde	_	VERB	_	_	10	advcl	_	Ref=MRK_1.27
-18	hwar	_	PRON	_	Abbr=Yes	17	obl	_	Ref=MRK_1.27
+18	hwar	_	PRON	_	Typo=Yes	17	obl	_	Ref=MRK_1.27
 19	annan	_	X	_	_	18	goeswith	_	Ref=MRK_1.27|SplitWord=Yes
 20	till	_	ADP	_	_	18	case	_	Ref=MRK_1.27
 21	/	_	PUNCT	_	_	22	punct	_	ModernForm=:|Ref=MRK_1.27
@@ -17729,7 +17729,7 @@
 12	Eloi	_	X	_	Foreign=Yes	10	ccomp	_	Ref=MRK_15.34
 13	eloi	_	X	_	Foreign=Yes	12	flat:foreign	_	Ref=MRK_15.34
 14	/	_	PUNCT	_	_	15	punct	_	Ref=MRK_15.34
-15	lamazabactani	_	X	Foreign=Yes	_	12	flat:foreign	_	Ref=MRK_15.34
+15	lamazabactani	_	X	_	Foreign=Yes	12	flat:foreign	_	Ref=MRK_15.34
 16	/	_	PUNCT	_	_	5	punct	_	ModernForm=.|Ref=MRK_15.34
 
 # sent_id = swedish-modern-nt1526-696
