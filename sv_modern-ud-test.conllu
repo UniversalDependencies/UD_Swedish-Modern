@@ -2616,7 +2616,7 @@
 15	hädha	_	VERB	_	_	7	acl:relcl	_	Ref=MRK_3.28
 16	/	_	PUNCT	_	_	18	punct	_	Ref=MRK_3.28
 17	wardha	_	AUX	_	_	18	aux:pass	_	Ref=MRK_3.28
-18	förlåtna	_	ADJ	_	_	2	ccomp	_	Ref=MRK_3.28
+18	förlåtna	_	VERB	_	_	2	ccomp	_	Ref=MRK_3.28
 19	menniskers	_	NOUN	_	Abbr=Yes	20	nmod:poss	_	Ref=MRK_3.28
 20	barnom	_	NOUN	_	_	18	obl	_	Ref=MRK_3.28
 21	/	_	PUNCT	_	_	2	punct	_	ModernForm=.|Ref=MRK_3.28
@@ -3101,13 +3101,13 @@
 45	icke	_	PART	_	_	48	advmod	_	Ref=MRK_4.12
 46	eens	_	ADV	_	_	48	advmod	_	Ref=MRK_4.12
 47	skola	_	AUX	_	_	48	aux	_	Ref=MRK_4.12
-48	omwenda	_	VERB	_	Abbr=Yes	14	conj	_	Ref=MRK_4.12
+48	omwenda	_	VERB	_	Abbr=Yes	41	acl	_	Ref=MRK_4.12
 49	/	_	PUNCT	_	_	53	punct	_	Ref=MRK_4.12
 50	och	_	CCONJ	_	_	53	cc	_	Ref=MRK_4.12
-51	synderna	_	NOUN	_	_	53	nsubj	_	Ref=MRK_4.12
+51	synderna	_	NOUN	_	_	53	nsubj:pass	_	Ref=MRK_4.12
 52	them	_	PRON	_	_	53	iobj	_	Ref=MRK_4.12
-53	förlåtna	_	ADJ	_	_	48	conj	_	Ref=MRK_4.12
-54	warda	_	AUX	_	_	53	aux	_	Ref=MRK_4.12
+53	förlåtna	_	VERB	_	_	48	conj	_	Ref=MRK_4.12
+54	warda	_	AUX	_	_	53	aux:pass	_	Ref=MRK_4.12
 55	/	_	PUNCT	_	_	7	punct	_	ModernForm=.|Ref=MRK_4.12
 
 # sent_id = swedish-modern-nt1526-114
@@ -3443,7 +3443,7 @@
 16	wardher	_	AUX	_	_	19	aux:pass	_	Ref=MRK_4.24
 17	än	_	ADV	_	_	19	advmod	_	Ref=MRK_4.24
 18	thå	_	ADV	_	_	19	advmod	_	Ref=MRK_4.24
-19	tilgiffuit	_	ADJ	_	_	10	conj	_	Ref=MRK_4.24
+19	tilgiffuit	_	VERB	_	_	10	conj	_	Ref=MRK_4.24
 20	/	_	PUNCT	_	_	21	punct	_	Ref=MRK_4.24
 21	j	_	PRON	_	_	19	vocative	_	Ref=MRK_4.24
 22	som	_	PRON	_	_	23	nsubj	_	Ref=MRK_4.24
@@ -3459,7 +3459,7 @@
 5	haffuer	_	VERB	_	_	2	acl:relcl	_	Ref=MRK_4.25
 6	/	_	PUNCT	_	_	9	punct	_	Ref=MRK_4.25
 7	honom	_	PRON	_	_	9	iobj	_	Ref=MRK_4.25
-8	wardher	_	AUX	_	_	9	aux	_	Ref=MRK_4.25
+8	wardher	_	AUX	_	_	9	aux:pass	_	Ref=MRK_4.25
 9	giffuit	_	VERB	_	_	0	root	_	Ref=MRK_4.25
 10	/	_	PUNCT	_	_	21	punct	_	Ref=MRK_4.25
 11	och	_	CCONJ	_	_	21	cc	_	Ref=MRK_4.25
@@ -3470,7 +3470,7 @@
 16	/	_	PUNCT	_	_	21	punct	_	Ref=MRK_4.25
 17	aff	_	ADP	_	_	18	case	_	Ref=MRK_4.25
 18	honom	_	PRON	_	_	21	obl	_	Ref=MRK_4.25
-19	wardher	_	AUX	_	_	21	aux	_	Ref=MRK_4.25
+19	wardher	_	AUX	_	_	21	aux:pass	_	Ref=MRK_4.25
 20	och	_	ADV	_	_	21	advmod	_	Ref=MRK_4.25
 21	taghit	_	VERB	_	_	9	conj	_	Ref=MRK_4.25
 22	thet	_	PRON	_	_	21	nsubj:pass	_	Ref=MRK_4.25
@@ -3516,10 +3516,10 @@
 8	och	_	CCONJ	_	_	10	cc	_	Ref=MRK_4.27
 9	sädhen	_	NOUN	_	_	10	nsubj:pass	_	Ref=MRK_4.27
 10	grönskas	_	VERB	_	_	3	conj	_	Ref=MRK_4.27
-11	/	_	PUNCT	_	_	14	punct	_	Ref=MRK_4.27
-12	och	_	CCONJ	_	_	14	cc	_	Ref=MRK_4.27
-13	wardher	_	AUX	_	_	14	cop	_	Ref=MRK_4.27
-14	högh	_	ADJ	_	_	10	conj	_	Ref=MRK_4.27
+11	/	_	PUNCT	_	_	13	punct	_	Ref=MRK_4.27
+12	och	_	CCONJ	_	_	13	cc	_	Ref=MRK_4.27
+13	wardher	_	VERB	_	_	10	conj	_	Ref=MRK_4.27
+14	högh	_	ADJ	_	_	13	xcomp	_	Ref=MRK_4.27
 15	/	_	PUNCT	_	_	21	punct	_	Ref=MRK_4.27
 16	thå	_	SCONJ	_	_	21	mark	_	Ref=MRK_4.27
 17	han	_	PRON	_	_	21	nsubj	_	Ref=MRK_4.27
@@ -3609,7 +3609,7 @@
 7	/	_	PUNCT	_	_	18	punct	_	Ref=MRK_4.31
 8	huilkit	_	PRON	_	_	18	nsubj	_	Ref=MRK_4.31
 9	thå	_	SCONJ	_	_	11	mark	_	Ref=MRK_4.31
-10	thz	_	PRON	_	_	11	nsubj	_	Ref=MRK_4.31
+10	thz	_	PRON	_	_	11	nsubj:pass	_	Ref=MRK_4.31
 11	såghet	_	VERB	_	_	18	advcl	_	Ref=MRK_4.31
 12	wardher	_	AUX	_	_	11	aux:pass	_	Ref=MRK_4.31
 13	j	_	ADP	_	_	14	case	_	Ref=MRK_4.31
@@ -3641,7 +3641,7 @@
 9	thz	_	PRON	_	_	8	nsubj	_	Ref=MRK_4.32
 10	/	_	PUNCT	_	_	12	punct	_	Ref=MRK_4.32
 11	och	_	CCONJ	_	_	12	cc	_	Ref=MRK_4.32
-12	wardher	_	AUX	_	Abbr=Yes	8	conj	_	Ref=MRK_4.32
+12	wardher	_	VERB	_	Abbr=Yes	8	conj	_	Ref=MRK_4.32
 13	större	_	ADJ	_	_	12	xcomp	_	Ref=MRK_4.32
 14	än	_	SCONJ	_	_	17	case	_	Ref=MRK_4.32
 15	all	_	DET	_	_	17	det	_	Ref=MRK_4.32
@@ -3984,7 +3984,7 @@
 48	/	_	PUNCT	_	_	52	punct	_	Ref=MRK_5.4
 49	och	_	CCONJ	_	_	52	cc	_	Ref=MRK_5.4
 50	kädhonar	_	NOUN	_	_	52	nsubj:pass	_	Ref=MRK_5.4
-51	wordo	_	AUX	_	_	52	aux	_	Ref=MRK_5.4
+51	wordo	_	AUX	_	_	52	aux:pass	_	Ref=MRK_5.4
 52	slitna	_	VERB	_	_	15	conj	_	Ref=MRK_5.4
 53	aff	_	ADP	_	_	54	case	_	Ref=MRK_5.4
 54	honom	_	PRON	_	_	52	obl	_	Ref=MRK_5.4
@@ -4598,20 +4598,20 @@
 21	/	_	PUNCT	_	_	23	punct	_	Ref=MRK_5.27
 22	och	_	CCONJ	_	_	23	cc	_	Ref=MRK_5.28
 23	sadhe	_	VERB	_	_	7	conj	_	Ref=MRK_5.28
-24	/	_	PUNCT	_	_	37	punct	_	ModernForm=:|Ref=MRK_5.28
+24	/	_	PUNCT	_	_	35	punct	_	ModernForm=:|Ref=MRK_5.28
 25	Kunde	_	AUX	_	_	29	aux	_	Ref=MRK_5.28
 26	iach	_	PRON	_	_	29	nsubj	_	Ref=MRK_5.28
 27	ath	_	ADP	_	_	28	case	_	Ref=MRK_5.28
 28	minsto	_	ADV	_	_	29	advmod	_	Ref=MRK_5.28
-29	tagha	_	VERB	_	_	37	advcl	_	Ref=MRK_5.28
+29	tagha	_	VERB	_	_	35	advcl	_	Ref=MRK_5.28
 30	på	_	ADP	_	_	32	case	_	Ref=MRK_5.28
 31	hans	_	PRON	_	_	32	nmod:poss	_	Ref=MRK_5.28
 32	klädher	_	NOUN	_	_	29	obl	_	Ref=MRK_5.28
 33	/	_	PUNCT	_	_	29	punct	_	Ref=MRK_5.28
-34	thå	_	ADV	_	_	37	advmod	_	Ref=MRK_5.28
-35	worde	_	AUX	_	_	37	aux	_	Ref=MRK_5.28
-36	iach	_	PRON	_	_	37	nsubj	_	Ref=MRK_5.28
-37	helbregda	_	ADJ	_	_	23	ccomp	_	Ref=MRK_5.28
+34	thå	_	ADV	_	_	35	advmod	_	Ref=MRK_5.28
+35	worde	_	VERB	_	_	23	ccomp	_	Ref=MRK_5.28
+36	iach	_	PRON	_	_	35	nsubj	_	Ref=MRK_5.28
+37	helbregda	_	ADJ	_	_	35	xcomp	_	Ref=MRK_5.28
 38	/	_	PUNCT	_	_	7	punct	_	ModernForm=.|Ref=MRK_5.28
 
 # sent_id = swedish-modern-nt1526-167
@@ -5159,7 +5159,7 @@
 8	prophete	_	NOUN	_	_	11	nsubj:pass	_	Ref=MRK_6.4
 9	warder	_	AUX	_	_	11	aux:pass	_	Ref=MRK_6.4
 10	icke	_	PART	_	_	11	advmod	_	Ref=MRK_6.4
-11	föractadh	_	ADJ	_	_	2	ccomp	_	Ref=MRK_6.4
+11	föractadh	_	VERB	_	_	2	ccomp	_	Ref=MRK_6.4
 12	vtan	_	ADP	_	Abbr=Yes	16	case	_	Ref=MRK_6.4
 13	j	_	ADP	_	_	16	case	_	Ref=MRK_6.4
 14	sitt	_	PRON	_	_	15	nmod:poss	_	Ref=MRK_6.4
@@ -5378,7 +5378,7 @@
 4	idher	_	PRON	_	_	2	iobj	_	Ref=MRK_6.11
 5	/	_	PUNCT	_	_	7	punct	_	ModernForm=:|Ref=MRK_6.11
 6	drägheligaren	_	ADJ	_	_	7	xcomp	_	Ref=MRK_6.11
-7	warder	_	AUX	_	_	2	ccomp	_	Ref=MRK_6.11
+7	warder	_	VERB	_	_	2	ccomp	_	Ref=MRK_6.11
 8	Sodomer	_	PROPN	_	_	7	nsubj	_	Ref=MRK_6.11
 9	och	_	CCONJ	_	_	10	cc	_	Ref=MRK_6.11
 10	Gomorrer	_	PROPN	_	_	8	conj	_	Ref=MRK_6.11
@@ -5699,7 +5699,7 @@
 11	huadh	_	PRON	_	_	20	obj	_	Ref=MRK_6.23
 12	tw	_	PRON	_	_	14	nsubj	_	Ref=MRK_6.23
 13	bidiandes	_	ADJ	_	_	14	xcomp	_	Ref=MRK_6.23
-14	warder	_	AUX	_	_	11	acl:relcl	_	Ref=MRK_6.23
+14	warder	_	VERB	_	_	11	acl:relcl	_	Ref=MRK_6.23
 15	aff	_	ADP	_	_	16	case	_	Ref=MRK_6.23
 16	mich	_	PRON	_	_	13	obl	_	Ref=MRK_6.23
 17	/	_	PUNCT	_	_	11	punct	_	Ref=MRK_6.23
@@ -6279,9 +6279,9 @@
 2	the	_	PRON	_	_	3	nsubj	_	Ref=MRK_6.42
 3	åto	_	VERB	_	_	0	root	_	Ref=MRK_6.42
 4	alle	_	PRON	_	_	3	advcl	_	Ref=MRK_6.42
-5	och	_	CCONJ	_	_	7	cc	_	Ref=MRK_6.42
-6	wordo	_	AUX	_	_	7	aux	_	Ref=MRK_6.42
-7	mätte	_	ADJ	_	_	3	conj	_	Ref=MRK_6.42
+5	och	_	CCONJ	_	_	6	cc	_	Ref=MRK_6.42
+6	wordo	_	VERB	_	_	3	conj	_	Ref=MRK_6.42
+7	mätte	_	ADJ	_	_	6	xcomp	_	Ref=MRK_6.42
 8	/	_	PUNCT	_	_	10	punct	_	Ref=MRK_6.42
 9	och	_	CCONJ	_	_	10	cc	_	Ref=MRK_6.43
 10	togho	_	VERB	_	_	3	conj	_	Ref=MRK_6.43
@@ -6446,10 +6446,10 @@
 24	the	_	PRON	_	_	25	nsubj	_	Ref=MRK_6.50
 25	sågho	_	VERB	_	_	21	conj	_	Ref=MRK_6.50
 26	honom	_	PRON	_	Abbr=Yes	25	obj	_	Ref=MRK_6.50
-27	alle	_	PRON	_	_	24	nmod	_	Ref=MRK_6.50
+27	alle	_	PRON	_	_	25	advcl	_	Ref=MRK_6.50
 28	/	_	PUNCT	_	_	31	punct	_	Ref=MRK_6.50
 29	och	_	CCONJ	_	_	31	cc	_	Ref=MRK_6.50
-30	wordo	_	AUX	_	_	31	aux	_	Ref=MRK_6.50
+30	wordo	_	AUX	_	_	31	aux:pass	_	Ref=MRK_6.50
 31	förskräcte	_	VERB	_	_	25	conj	_	Ref=MRK_6.50
 32	/	_	PUNCT	_	_	9	punct	_	ModernForm=.|Ref=MRK_6.50
 
@@ -6624,17 +6624,17 @@
 29	hans	_	PRON	_	_	30	nmod:poss	_	Ref=MRK_6.55
 30	klädhe	_	NOUN	_	Typo=Yes	27	obl	_	Ref=MRK_6.55
 31	foll	_	X	_	_	30	goeswith	_	Ref=MRK_6.55|SplitWord=Yes
-32	/	_	PUNCT	_	_	42	punct	_	Ref=MRK_6.55
-33	och	_	CCONJ	_	_	42	cc	_	Ref=MRK_6.55
+32	/	_	PUNCT	_	_	41	punct	_	Ref=MRK_6.55
+33	och	_	CCONJ	_	_	41	cc	_	Ref=MRK_6.55
 34	så	_	ADV	_	_	35	advmod	_	Ref=MRK_6.55
-35	monge	_	PRON	_	_	42	dislocated	_	Ref=MRK_6.55
+35	monge	_	PRON	_	_	41	dislocated	_	Ref=MRK_6.55
 36	som	_	PRON	_	_	37	nsubj	_	Ref=MRK_6.55
 37	komo	_	VERB	_	_	35	acl:relcl	_	Ref=MRK_6.55
 38	vidh	_	ADP	_	_	39	case	_	Ref=MRK_6.55
 39	honom	_	PRON	_	_	37	obl	_	Ref=MRK_6.55
-40	the	_	PRON	_	_	42	nsubj	_	Ref=MRK_6.55
-41	wordo	_	AUX	_	_	42	aux:pass	_	Ref=MRK_6.55
-42	helbrögda	_	VERB	_	_	19	conj	_	Ref=MRK_6.55|SpaceAfter=No
+40	the	_	PRON	_	_	41	nsubj	_	Ref=MRK_6.55
+41	wordo	_	VERB	_	_	19	conj	_	Ref=MRK_6.55
+42	helbrögda	_	ADJ	_	_	41	xcomp	_	Ref=MRK_6.55|SpaceAfter=No
 43	.	_	PUNCT	_	_	11	punct	_	Ref=MRK_6.55
 
 # sent_id = swedish-modern-nt1526-243
@@ -7245,7 +7245,7 @@
 33	doch	_	ADV	_	_	35	advmod	_	Ref=MRK_7.24
 34	icke	_	PART	_	_	35	advmod	_	Ref=MRK_7.24
 35	fördoldt	_	VERB	_	_	28	conj	_	Ref=MRK_7.24
-36	bliffua	_	AUX	_	_	35	aux	_	Ref=MRK_7.24
+36	bliffua	_	AUX	_	_	35	aux:pass	_	Ref=MRK_7.24
 37	/	_	PUNCT	_	_	2	punct	_	ModernForm=.|Ref=MRK_7.24
 
 # sent_id = swedish-modern-nt1526-260
@@ -7314,7 +7314,7 @@
 8	barnen	_	NOUN	_	_	7	obj	_	Ref=MRK_7.27
 9	först	_	ADJ	_	_	11	advmod	_	Ref=MRK_7.27
 10	mätt	_	ADJ	_	_	11	xcomp	_	Ref=MRK_7.27
-11	wardha	_	AUX	_	_	7	xcomp	_	Ref=MRK_7.27
+11	wardha	_	VERB	_	_	7	xcomp	_	Ref=MRK_7.27
 12	/	_	PUNCT	_	_	7	punct	_	ModernForm=.|Ref=MRK_7.27
 
 # sent_id = swedish-modern-nt1526-263
@@ -8584,8 +8584,8 @@
 10	euangelij	_	NOUN	_	_	8	conj	_	Ref=MRK_8.35
 11	skull	_	NOUN	_	_	4	obl	_	Ref=MRK_8.35
 12	/	_	PUNCT	_	_	2	punct	_	Ref=MRK_8.35
-13	han	_	PRON	_	_	14	nsubj:pass	_	Ref=MRK_8.35
-14	wardher	_	AUX	_	_	0	root	_	Ref=MRK_8.35
+13	han	_	PRON	_	_	14	nsubj	_	Ref=MRK_8.35
+14	wardher	_	VERB	_	_	0	root	_	Ref=MRK_8.35
 15	thet	_	PRON	_	_	16	obj	_	Ref=MRK_8.35
 16	behollandes	_	VERB	_	_	14	xcomp	_	Ref=MRK_8.35
 17	/	_	PUNCT	_	_	14	punct	_	ModernForm=.|Ref=MRK_8.35
@@ -8753,7 +8753,7 @@
 1	och	_	CCONJ	_	_	4	cc	_	Ref=MRK_9.3
 2	hans	_	PRON	_	_	3	nmod:poss	_	Ref=MRK_9.3
 3	clädher	_	NOUN	_	_	4	nsubj	_	Ref=MRK_9.3
-4	wordo	_	AUX	_	_	0	root	_	Ref=MRK_9.3
+4	wordo	_	VERB	_	_	0	root	_	Ref=MRK_9.3
 5	klår	_	ADJ	_	_	4	xcomp	_	Ref=MRK_9.3
 6	och	_	CCONJ	_	_	8	cc	_	Ref=MRK_9.3
 7	ganska	_	ADV	_	_	8	advmod	_	Ref=MRK_9.3
@@ -9077,19 +9077,19 @@
 
 # sent_id = swedish-modern-nt1526-335
 # text = Och strax alt folkit sågh honom / wordo the häpne / och lopo till och helsadhe honom / och han sporde the scrifftlärda / huad befråge j emellan idher?
-1	Och	_	CCONJ	_	_	10	cc	_	Ref=MRK_9.15
+1	Och	_	CCONJ	_	_	8	cc	_	Ref=MRK_9.15
 2	strax	_	ADV	_	_	5	advmod	_	Ref=MRK_9.15
 3	alt	_	DET	_	_	4	det	_	Ref=MRK_9.15
 4	folkit	_	NOUN	_	_	5	nsubj	_	Ref=MRK_9.15
-5	sågh	_	VERB	_	_	10	advcl	_	Ref=MRK_9.15
+5	sågh	_	VERB	_	_	8	advcl	_	Ref=MRK_9.15
 6	honom	_	PRON	_	_	5	obj	_	Ref=MRK_9.15
 7	/	_	PUNCT	_	_	5	punct	_	Ref=MRK_9.15
-8	wordo	_	AUX	_	_	10	aux:pass	_	Ref=MRK_9.15
-9	the	_	PRON	_	_	10	nsubj	_	Ref=MRK_9.15
-10	häpne	_	ADJ	_	_	0	root	_	Ref=MRK_9.15
+8	wordo	_	VERB	_	_	0	root	_	Ref=MRK_9.15
+9	the	_	PRON	_	_	8	nsubj	_	Ref=MRK_9.15
+10	häpne	_	ADJ	_	_	8	xcomp	_	Ref=MRK_9.15
 11	/	_	PUNCT	_	_	13	punct	_	Ref=MRK_9.15
 12	och	_	CCONJ	_	_	13	cc	_	Ref=MRK_9.15
-13	lopo	_	VERB	_	_	10	conj	_	Ref=MRK_9.15
+13	lopo	_	VERB	_	_	8	conj	_	Ref=MRK_9.15
 14	till	_	ADP	_	_	13	compound:prt	_	Ref=MRK_9.15
 15	och	_	CCONJ	_	_	16	cc	_	Ref=MRK_9.15
 16	helsadhe	_	VERB	_	_	13	conj	_	Ref=MRK_9.15
@@ -9097,7 +9097,7 @@
 18	/	_	PUNCT	_	_	21	punct	_	Ref=MRK_9.15
 19	och	_	CCONJ	_	_	21	cc	_	Ref=MRK_9.16
 20	han	_	PRON	_	_	21	nsubj	_	Ref=MRK_9.16
-21	sporde	_	VERB	_	_	10	conj	_	Ref=MRK_9.16
+21	sporde	_	VERB	_	_	8	conj	_	Ref=MRK_9.16
 22	the	_	DET	_	_	23	det	_	Ref=MRK_9.16
 23	scrifftlärda	_	ADJ	_	_	21	obj	_	Ref=MRK_9.16
 24	/	_	PUNCT	_	_	26	punct	_	ModernForm=:|Ref=MRK_9.16
@@ -9533,7 +9533,7 @@
 11	och	_	CCONJ	_	_	12	cc	_	Ref=MRK_9.30
 12	wille	_	VERB	_	_	3	conj	_	Ref=MRK_9.30
 13	doch	_	ADV	_	_	12	advmod	_	Ref=MRK_9.30
-14	icke	_	PART	_	_	12	advmod	_	Ref=MRK_9.30
+14	icke	_	ADV	_	_	12	advmod	_	Ref=MRK_9.30
 15	ath	_	SCONJ	_	_	18	mark	_	Ref=MRK_9.30
 16	noghor	_	PRON	_	_	18	nsubj	_	Ref=MRK_9.30
 17	skulle	_	AUX	_	_	18	aux	_	Ref=MRK_9.30
@@ -9562,7 +9562,7 @@
 39	och	_	CCONJ	_	_	42	cc	_	Ref=MRK_9.31
 40	the	_	PRON	_	_	42	nsubj	_	Ref=MRK_9.31
 41	skola	_	AUX	_	_	42	aux	_	Ref=MRK_9.31
-42	dödha	_	ADJ	_	_	34	conj	_	Ref=MRK_9.31
+42	dödha	_	VERB	_	_	34	conj	_	Ref=MRK_9.31
 43	honom	_	PRON	_	_	42	obj	_	Ref=MRK_9.31
 44	/	_	PUNCT	_	_	50	punct	_	Ref=MRK_9.31
 45	och	_	CCONJ	_	_	50	cc	_	Ref=MRK_9.31
@@ -9570,7 +9570,7 @@
 47	han	_	PRON	_	_	49	nsubj	_	Ref=MRK_9.31
 48	är	_	AUX	_	_	49	cop	_	Ref=MRK_9.31
 49	dödhader	_	ADJ	_	_	50	advcl	_	Ref=MRK_9.31
-50	wardher	_	AUX	_	_	34	conj	_	Ref=MRK_9.31
+50	wardher	_	VERB	_	_	34	conj	_	Ref=MRK_9.31
 51	han	_	PRON	_	_	50	nsubj	_	Ref=MRK_9.31
 52	på	_	ADP	_	_	54	case	_	Ref=MRK_9.31
 53	tridie	_	ADJ	_	_	54	amod	_	Ref=MRK_9.31
@@ -10740,7 +10740,7 @@
 # text = Men hans läryungar wordo förskrekte aff hans oordhom /
 1	Men	_	CCONJ	_	_	5	cc	_	Ref=MRK_10.24
 2	hans	_	PRON	_	_	3	nmod:poss	_	Ref=MRK_10.24
-3	läryungar	_	NOUN	_	_	5	nsubj	_	Ref=MRK_10.24
+3	läryungar	_	NOUN	_	_	5	nsubj:pass	_	Ref=MRK_10.24
 4	wordo	_	AUX	_	_	5	aux:pass	_	Ref=MRK_10.24
 5	förskrekte	_	VERB	_	_	0	root	_	Ref=MRK_10.24
 6	aff	_	ADP	_	_	8	case	_	Ref=MRK_10.24
@@ -10958,17 +10958,17 @@
 
 # sent_id = swedish-modern-nt1526-406
 # text = Men monge the ther fremste äro / the warda the yterste / och the yterste / the fremste /
-1	Men	_	CCONJ	_	_	11	cc	_	Ref=MRK_10.31
-2	monge	_	PRON	_	_	11	dislocated	_	Ref=MRK_10.31
+1	Men	_	CCONJ	_	_	9	cc	_	Ref=MRK_10.31
+2	monge	_	PRON	_	_	9	dislocated	_	Ref=MRK_10.31
 3	the	_	PRON	_	_	2	appos	_	Ref=MRK_10.31
 4	ther	_	ADV	_	_	5	advmod	_	Ref=MRK_10.31
 5	fremste	_	ADJ	_	_	2	acl:relcl	_	Ref=MRK_10.31
 6	äro	_	AUX	_	_	5	cop	_	Ref=MRK_10.31
 7	/	_	PUNCT	_	_	2	punct	_	Ref=MRK_10.31
-8	the	_	PRON	_	_	11	nsubj	_	Ref=MRK_10.31
-9	warda	_	AUX	_	_	11	cop	_	Ref=MRK_10.31
+8	the	_	PRON	_	_	9	nsubj	_	Ref=MRK_10.31
+9	warda	_	VERB	_	_	0	root	_	Ref=MRK_10.31
 10	the	_	DET	_	_	11	det	_	Ref=MRK_10.31
-11	yterste	_	ADJ	_	_	0	root	_	Ref=MRK_10.31
+11	yterste	_	ADJ	_	_	9	xcomp	_	Ref=MRK_10.31
 12	/	_	PUNCT	_	_	15	punct	_	Ref=MRK_10.31
 13	och	_	CCONJ	_	_	15	cc	_	Ref=MRK_10.31
 14	the	_	DET	_	_	15	det	_	Ref=MRK_10.31
@@ -11719,7 +11719,7 @@
 41	ther	_	ADV	_	_	40	advmod	_	Ref=MRK_11.2
 42	in	_	ADV	_	_	40	advmod	_	Ref=MRK_11.2
 43	/	_	PUNCT	_	_	40	punct	_	Ref=MRK_11.2
-44	warden	_	AUX	_	_	28	conj	_	Ref=MRK_11.2
+44	warden	_	VERB	_	_	28	conj	_	Ref=MRK_11.2
 45	j	_	PRON	_	_	44	nsubj	_	Ref=MRK_11.2
 46	finnandes	_	VERB	_	_	44	xcomp	_	Ref=MRK_11.2
 47	en	_	DET	_	_	48	det	_	Ref=MRK_11.2
@@ -13369,14 +13369,14 @@
 2	om	_	ADP	_	_	4	case	_	Ref=MRK_12.26
 3	the	_	DET	_	_	4	det	_	Ref=MRK_12.26
 4	dödha	_	ADJ	_	_	13	obl	_	Ref=MRK_12.26
-5	ath	_	SCONJ	_	_	8	mark	_	Ref=MRK_12.26
-6	the	_	PRON	_	_	8	nsubj:pass	_	Ref=MRK_12.26
-7	warda	_	AUX	_	_	8	aux	_	Ref=MRK_12.26
-8	vpståndandes	_	VERB	_	_	13	ccomp	_	Ref=MRK_12.26
-9	/	_	PUNCT	_	_	8	punct	_	Ref=MRK_12.26
+5	ath	_	SCONJ	_	_	7	mark	_	Ref=MRK_12.26
+6	the	_	PRON	_	_	7	nsubj	_	Ref=MRK_12.26
+7	warda	_	VERB	_	_	13	ccomp	_	Ref=MRK_12.26
+8	vpståndandes	_	ADJ	_	_	7	xcomp	_	Ref=MRK_12.26
+9	/	_	PUNCT	_	_	7	punct	_	Ref=MRK_12.26
 10	haffuen	_	AUX	_	_	13	aux	_	Ref=MRK_12.26
 11	j	_	PRON	_	_	13	nsubj	_	Ref=MRK_12.26
-12	icke	_	PART	_	_	13	advmod	_	Ref=MRK_12.26
+12	icke	_	ADV	_	_	13	advmod	_	Ref=MRK_12.26
 13	läsit	_	VERB	_	_	0	root	_	Ref=MRK_12.26
 14	j	_	ADP	_	_	16	case	_	Ref=MRK_12.26
 15	Mosi	_	PROPN	_	_	16	nmod:poss	_	Ref=MRK_12.26
@@ -14004,17 +14004,17 @@
 2	steen	_	NOUN	_	_	3	nsubj	_	Ref=MRK_13.2
 3	warder	_	VERB	_	_	0	root	_	Ref=MRK_13.2
 4	icke	_	PART	_	_	3	advmod	_	Ref=MRK_13.2
-5	qwar	_	ADV	_	_	3	compound:prt	_	Ref=MRK_13.2
+5	qwar	_	ADV	_	_	3	advmod	_	Ref=MRK_13.2
 6	liggiandes	_	VERB	_	_	3	advcl	_	Ref=MRK_13.2
 7	på	_	ADP	_	_	9	case	_	Ref=MRK_13.2
 8	then	_	DET	_	_	9	det	_	Ref=MRK_13.2
 9	andra	_	PRON	_	_	6	obl	_	Ref=MRK_13.2
 10	/	_	PUNCT	_	_	14	punct	_	Ref=MRK_13.2
-11	then	_	PRON	_	_	14	nsubj	_	Ref=MRK_13.2
-12	icke	_	PART	_	_	14	advmod	_	Ref=MRK_13.2
+11	then	_	PRON	_	_	14	nsubj:pass	_	Ref=MRK_13.2
+12	icke	_	ADV	_	_	14	advmod	_	Ref=MRK_13.2
 13	aff	_	ADP	_	_	14	compound:prt	_	Ref=MRK_13.2
-14	broten	_	VERB	_	_	3	conj	_	Ref=MRK_13.2
-15	wardher	_	AUX	_	_	14	aux	_	Ref=MRK_13.2|SpaceAfter=No
+14	broten	_	VERB	_	_	2	acl:relcl	_	Ref=MRK_13.2
+15	wardher	_	AUX	_	_	14	aux:pass	_	Ref=MRK_13.2|SpaceAfter=No
 16	.	_	PUNCT	_	_	3	punct	_	Ref=MRK_13.2
 
 # sent_id = swedish-modern-nt1526-537
@@ -14079,11 +14079,11 @@
 10	inghen	_	PRON	_	_	12	nsubj	_	Ref=MRK_13.5
 11	idher	_	PRON	_	_	12	obj	_	Ref=MRK_13.5
 12	bedrägher	_	VERB	_	_	7	ccomp	_	Ref=MRK_13.5
-13	/	_	PUNCT	_	_	17	punct	_	Ref=MRK_13.5
-14	ty	_	CCONJ	_	_	17	cc	_	Ref=MRK_13.6
-15	monge	_	PRON	_	_	17	nsubj	_	Ref=MRK_13.6
-16	warde	_	AUX	_	_	17	aux	_	Ref=MRK_13.6
-17	kommande	_	VERB	_	_	12	conj	_	Ref=MRK_13.6
+13	/	_	PUNCT	_	_	16	punct	_	Ref=MRK_13.5
+14	ty	_	CCONJ	_	_	16	cc	_	Ref=MRK_13.6
+15	monge	_	PRON	_	_	16	nsubj	_	Ref=MRK_13.6
+16	warde	_	VERB	_	_	12	conj	_	Ref=MRK_13.6
+17	kommande	_	VERB	_	_	16	xcomp	_	Ref=MRK_13.6
 18	j	_	ADP	_	_	20	case	_	Ref=MRK_13.6
 19	mitt	_	PRON	_	_	20	nmod:poss	_	Ref=MRK_13.6
 20	nampn	_	NOUN	_	_	17	obl	_	Ref=MRK_13.6
@@ -14096,7 +14096,7 @@
 27	och	_	CCONJ	_	_	30	cc	_	Ref=MRK_13.6
 28	the	_	PRON	_	_	30	nsubj	_	Ref=MRK_13.6
 29	skola	_	AUX	_	_	30	aux	_	Ref=MRK_13.6
-30	bedragha	_	VERB	_	_	17	conj	_	Ref=MRK_13.6
+30	bedragha	_	VERB	_	_	16	conj	_	Ref=MRK_13.6
 31	monga	_	PRON	_	_	30	obj	_	Ref=MRK_13.6|SpaceAfter=No
 32	.	_	PUNCT	_	_	1	punct	_	Ref=MRK_13.6
 
@@ -14132,7 +14132,7 @@
 # sent_id = swedish-modern-nt1526-541
 # text = thet warder wppresande thet ena fölkit emoot thet andra / och thet ena rikit emoot thet andra /
 1	thet	_	PRON	_	_	2	expl	_	Ref=MRK_13.8
-2	warder	_	AUX	_	_	0	root	_	Ref=MRK_13.8
+2	warder	_	VERB	_	_	0	root	_	Ref=MRK_13.8
 3	wppresande	_	ADJ	_	_	2	xcomp	_	Ref=MRK_13.8
 4	thet	_	PRON	_	_	6	det	_	Ref=MRK_13.8
 5	ena	_	PRON	_	_	6	amod	_	Ref=MRK_13.8
@@ -14224,11 +14224,11 @@
 # sent_id = swedish-modern-nt1526-545
 # text = Och Euangelium moste först predicat warda för alt folk.
 1	Och	_	CCONJ	_	_	5	cc	_	Ref=MRK_13.10
-2	Euangelium	_	NOUN	_	_	5	nsubj	_	Ref=MRK_13.10
+2	Euangelium	_	NOUN	_	_	5	nsubj:pass	_	Ref=MRK_13.10
 3	moste	_	AUX	_	_	5	aux	_	Ref=MRK_13.10
 4	först	_	ADJ	_	_	5	advmod	_	Ref=MRK_13.10
 5	predicat	_	VERB	_	_	0	root	_	Ref=MRK_13.10
-6	warda	_	AUX	_	_	5	aux	_	Ref=MRK_13.10
+6	warda	_	AUX	_	_	5	aux:pass	_	Ref=MRK_13.10
 7	för	_	ADP	_	_	9	case	_	Ref=MRK_13.10
 8	alt	_	DET	_	_	9	det	_	Ref=MRK_13.10
 9	folk	_	NOUN	_	_	5	obl	_	Ref=MRK_13.10|SpaceAfter=No
@@ -14284,7 +14284,7 @@
 # sent_id = swedish-modern-nt1526-547
 # text = och warder then ena brodhren öffwerantwardandes then andra j döden / och fadhren sonen /
 1	och	_	CCONJ	_	_	2	cc	_	Ref=MRK_13.12
-2	warder	_	AUX	_	_	0	root	_	Ref=MRK_13.12
+2	warder	_	VERB	_	_	0	root	_	Ref=MRK_13.12
 3	then	_	DET	_	_	5	det	_	Ref=MRK_13.12
 4	ena	_	ADJ	_	_	5	amod	_	Ref=MRK_13.12
 5	brodhren	_	NOUN	_	_	2	nsubj	_	Ref=MRK_13.12
@@ -14456,7 +14456,7 @@
 14	ath	_	SCONJ	_	_	18	mark	_	Ref=MRK_13.18
 15	idher	_	PRON	_	_	16	nmod:poss	_	Ref=MRK_13.18
 16	flökt	_	NOUN	_	_	18	nsubj	_	Ref=MRK_13.18
-17	icke	_	PART	_	_	18	advmod	_	Ref=MRK_13.18
+17	icke	_	ADV	_	_	18	advmod	_	Ref=MRK_13.18
 18	skeer	_	VERB	_	_	13	ccomp	_	Ref=MRK_13.18
 19	om	_	ADP	_	_	20	case	_	Ref=MRK_13.18
 20	wintren	_	NOUN	_	_	18	obl	_	Ref=MRK_13.18
@@ -14466,7 +14466,7 @@
 24	j	_	ADP	_	_	26	case	_	Ref=MRK_13.19
 25	the	_	DET	_	_	26	det	_	Ref=MRK_13.19
 26	daghar	_	NOUN	_	_	27	obl	_	Ref=MRK_13.19
-27	wardher	_	AUX	_	_	13	conj	_	Ref=MRK_13.19
+27	wardher	_	VERB	_	_	13	conj	_	Ref=MRK_13.19
 28	sådana	_	ADJ	_	_	29	amod	_	Ref=MRK_13.19
 29	bedröffwilse	_	NOUN	_	_	27	nsubj	_	Ref=MRK_13.19
 30	ath	_	SCONJ	_	_	31	mark	_	Ref=MRK_13.19
@@ -14552,11 +14552,11 @@
 # text = ty falska christi och falske propheter warda sigh vphäffwande / och the skola göra teekn och wijdhunder till ath bedrägha (ja om mögheleghit wore) them ther vthkoradhe äro /
 1	ty	_	CCONJ	_	_	9	cc	_	Ref=MRK_13.22
 2	falska	_	ADJ	_	_	3	amod	_	Ref=MRK_13.22
-3	christi	_	PROPN	_	_	9	nsubj	_	Ref=MRK_13.22
+3	christi	_	PROPN	_	_	9	nsubj:pass	_	Ref=MRK_13.22
 4	och	_	CCONJ	_	_	6	cc	_	Ref=MRK_13.22
 5	falske	_	ADJ	_	_	6	amod	_	Ref=MRK_13.22
 6	propheter	_	NOUN	_	_	3	conj	_	Ref=MRK_13.22
-7	warda	_	AUX	_	_	9	aux	_	Ref=MRK_13.22
+7	warda	_	AUX	_	_	9	aux:pass	_	Ref=MRK_13.22
 8	sigh	_	PRON	_	_	9	obj	_	Ref=MRK_13.22
 9	vphäffwande	_	VERB	_	_	0	root	_	Ref=MRK_13.22
 10	/	_	PUNCT	_	_	14	punct	_	Ref=MRK_13.22
@@ -14619,17 +14619,17 @@
 13	och	_	CCONJ	_	_	17	cc	_	Ref=MRK_13.24
 14	månen	_	NOUN	_	_	17	nsubj	_	Ref=MRK_13.24
 15	skall	_	AUX	_	_	17	aux	_	Ref=MRK_13.24
-16	icke	_	PART	_	_	17	advmod	_	Ref=MRK_13.24
+16	icke	_	ADV	_	_	17	advmod	_	Ref=MRK_13.24
 17	giffwa	_	VERB	_	_	11	conj	_	Ref=MRK_13.24
 18	sitt	_	PRON	_	_	19	nmod:poss	_	Ref=MRK_13.24
 19	sken	_	NOUN	_	_	17	obj	_	Ref=MRK_13.24
-20	/	_	PUNCT	_	_	26	punct	_	Ref=MRK_13.24
-21	och	_	CCONJ	_	_	26	cc	_	Ref=MRK_13.25
+20	/	_	PUNCT	_	_	24	punct	_	Ref=MRK_13.24
+21	och	_	CCONJ	_	_	24	cc	_	Ref=MRK_13.25
 22	himmelsens	_	NOUN	_	_	23	nmod:poss	_	Ref=MRK_13.25
-23	stiernor	_	NOUN	_	_	26	nsubj	_	Ref=MRK_13.25
-24	warda	_	AUX	_	_	26	aux	_	Ref=MRK_13.25
+23	stiernor	_	NOUN	_	_	24	nsubj	_	Ref=MRK_13.25
+24	warda	_	VERB	_	_	11	conj	_	Ref=MRK_13.25
 25	nidher	_	ADV	_	_	26	advmod	_	Ref=MRK_13.25
-26	fallandes	_	VERB	_	_	11	conj	_	Ref=MRK_13.25
+26	fallandes	_	ADJ	_	_	24	xcomp	_	Ref=MRK_13.25
 27	/	_	PUNCT	_	_	32	punct	_	Ref=MRK_13.25
 28	och	_	CCONJ	_	_	32	cc	_	Ref=MRK_13.25
 29	himblanas	_	NOUN	_	_	30	nmod:poss	_	Ref=MRK_13.25
@@ -14760,19 +14760,19 @@
 
 # sent_id = swedish-modern-nt1526-564
 # text = Himmel och iordh warda förgongandis / men min ordh warda icke förgongande /
-1	Himmel	_	NOUN	_	_	5	nsubj:pass	_	Ref=MRK_13.31
+1	Himmel	_	NOUN	_	_	4	nsubj	_	Ref=MRK_13.31
 2	och	_	CCONJ	_	_	3	cc	_	Ref=MRK_13.31
 3	iordh	_	NOUN	_	_	1	conj	_	Ref=MRK_13.31
-4	warda	_	AUX	_	_	5	aux:pass	_	Ref=MRK_13.31
-5	förgongandis	_	VERB	_	_	0	root	_	Ref=MRK_13.31
-6	/	_	PUNCT	_	_	12	punct	_	Ref=MRK_13.31
-7	men	_	CCONJ	_	_	12	cc	_	Ref=MRK_13.31
+4	warda	_	VERB	_	_	0	root	_	Ref=MRK_13.31
+5	förgongandis	_	ADJ	_	_	4	xcomp	_	Ref=MRK_13.31
+6	/	_	PUNCT	_	_	10	punct	_	Ref=MRK_13.31
+7	men	_	CCONJ	_	_	10	cc	_	Ref=MRK_13.31
 8	min	_	PRON	_	_	9	nmod:poss	_	Ref=MRK_13.31
-9	ordh	_	NOUN	_	_	12	nsubj:pass	_	Ref=MRK_13.31
-10	warda	_	AUX	_	_	12	aux:pass	_	Ref=MRK_13.31
-11	icke	_	PART	_	_	12	advmod	_	Ref=MRK_13.31
-12	förgongande	_	VERB	_	_	5	conj	_	Ref=MRK_13.31
-13	/	_	PUNCT	_	_	5	punct	_	ModernForm=.|Ref=MRK_13.31
+9	ordh	_	NOUN	_	_	10	nsubj	_	Ref=MRK_13.31
+10	warda	_	VERB	_	_	4	conj	_	Ref=MRK_13.31
+11	icke	_	PART	_	_	10	advmod	_	Ref=MRK_13.31
+12	förgongande	_	ADJ	_	_	10	xcomp	_	Ref=MRK_13.31
+13	/	_	PUNCT	_	_	4	punct	_	ModernForm=.|Ref=MRK_13.31
 
 # sent_id = swedish-modern-nt1526-565
 # text = Men om then daghen eller then stunden wet inghen / icke änglanar som j himmelen äro ey heller sielffwer sonnen vtan fadheren allena.
@@ -14874,7 +14874,7 @@
 9	icke	_	PART	_	_	8	advmod	_	Ref=MRK_13.35
 10	när	_	ADV	_	_	13	advmod	_	Ref=MRK_13.35
 11	hwszherren	_	NOUN	_	_	13	nsubj	_	Ref=MRK_13.35
-12	kommandes	_	VERB	_	_	13	xcomp	_	Ref=MRK_13.35
+12	kommandes	_	ADJ	_	_	13	xcomp	_	Ref=MRK_13.35
 13	warder	_	VERB	_	_	8	ccomp	_	Ref=MRK_13.35
 14	/	_	PUNCT	_	_	17	punct	_	Ref=MRK_13.35
 15	antingen	_	CCONJ	_	_	17	cc	_	Ref=MRK_13.35
@@ -15360,7 +15360,7 @@
 # text = Och han wardher idher wisande en stoor saal breddan och tillpyntadhan /
 1	Och	_	CCONJ	_	_	3	cc	_	Ref=MRK_14.15
 2	han	_	PRON	_	_	3	nsubj	_	Ref=MRK_14.15
-3	wardher	_	AUX	_	_	0	root	_	Ref=MRK_14.15
+3	wardher	_	VERB	_	_	0	root	_	Ref=MRK_14.15
 4	idher	_	PRON	_	_	5	iobj	_	Ref=MRK_14.15
 5	wisande	_	VERB	_	_	3	xcomp	_	Ref=MRK_14.15
 6	en	_	DET	_	_	8	det	_	Ref=MRK_14.15
@@ -15444,7 +15444,7 @@
 34	mich	_	PRON	_	_	32	obl	_	Ref=MRK_14.18
 35	/	_	PUNCT	_	_	28	punct	_	Ref=MRK_14.18
 36	han	_	PRON	_	_	37	nsubj	_	Ref=MRK_14.18
-37	wardher	_	AUX	_	_	24	ccomp	_	Ref=MRK_14.18
+37	wardher	_	VERB	_	_	24	ccomp	_	Ref=MRK_14.18
 38	mich	_	PRON	_	_	39	obj	_	Ref=MRK_14.18
 39	förrådhandes	_	VERB	_	Abbr=Yes	37	xcomp	_	CorrectForm=förrådhandes|Ref=MRK_14.18
 40	/	_	PUNCT	_	_	6	punct	_	ModernForm=.|Ref=MRK_14.18
@@ -15510,8 +15510,8 @@
 1	Ja	_	INTJ	_	_	4	discourse	_	Ref=MRK_14.21
 2	menniskionne	_	NOUN	_	_	3	nmod:poss	_	Ref=MRK_14.21
 3	son	_	NOUN	_	_	4	nsubj	_	Ref=MRK_14.21
-4	wardher	_	AUX	_	_	0	root	_	Ref=MRK_14.21
-5	gåendis	_	VERB	_	_	4	xcomp	_	Ref=MRK_14.21
+4	wardher	_	VERB	_	_	0	root	_	Ref=MRK_14.21
+5	gåendis	_	ADJ	_	_	4	xcomp	_	Ref=MRK_14.21
 6	såsom	_	ADV	_	_	7	advmod	_	Ref=MRK_14.21
 7	scriffuit	_	VERB	_	_	4	advcl	_	Ref=MRK_14.21
 8	är	_	AUX	_	_	7	cop	_	Ref=MRK_14.21
@@ -15637,10 +15637,10 @@
 5	/	_	PUNCT	_	_	8	punct	_	ModernForm=:|Ref=MRK_14.25
 6	Här	_	ADV	_	_	8	advmod	_	Ref=MRK_14.25
 7	effter	_	ADP	_	_	6	case	_	Ref=MRK_14.25
-8	wardher	_	AUX	_	_	2	ccomp	_	Ref=MRK_14.25
+8	wardher	_	VERB	_	_	2	ccomp	_	Ref=MRK_14.25
 9	iach	_	PRON	_	_	8	nsubj	_	Ref=MRK_14.25
 10	ecke	_	PART	_	_	8	advmod	_	Ref=MRK_14.25
-11	drickandes	_	VERB	_	_	8	xcomp	_	Ref=MRK_14.25
+11	drickandes	_	ADJ	_	_	8	xcomp	_	Ref=MRK_14.25
 12	vth	_	ADP	_	_	15	case	_	Ref=MRK_14.25
 13	aff	_	ADP	_	_	15	case	_	Ref=MRK_14.25
 14	vijnträs	_	NOUN	_	_	15	nmod:poss	_	Ref=MRK_14.25
@@ -15654,7 +15654,7 @@
 22	iach	_	PRON	_	_	25	nsubj	_	Ref=MRK_14.25
 23	thet	_	PRON	_	_	24	obj	_	Ref=MRK_14.25
 24	drickandes	_	VERB	_	_	25	xcomp	_	Ref=MRK_14.25
-25	wardher	_	AUX	_	_	20	acl	_	Ref=MRK_14.25
+25	wardher	_	VERB	_	_	20	acl	_	Ref=MRK_14.25
 26	uytt	_	ADP	_	Typo=Yes	29	case	_	CorrectForm=nytt|Ref=MRK_14.25
 27	j	_	ADP	_	_	29	case	_	Ref=MRK_14.25
 28	gudz	_	NOUN	_	_	29	nmod:poss	_	Ref=MRK_14.25
@@ -15687,7 +15687,7 @@
 6	/	_	PUNCT	_	_	9	punct	_	ModernForm=:|Ref=MRK_14.27
 7	J	_	PRON	_	_	9	nsubj	_	Ref=MRK_14.27
 8	alle	_	PRON	_	_	9	advcl	_	Ref=MRK_14.27
-9	warden	_	AUX	_	_	2	ccomp	_	Ref=MRK_14.27
+9	warden	_	VERB	_	_	2	ccomp	_	Ref=MRK_14.27
 10	lidhandes	_	VERB	_	_	9	xcomp	_	Ref=MRK_14.27
 11	förargilse	_	NOUN	_	_	10	obj	_	Ref=MRK_14.27
 12	för	_	ADP	_	_	14	case	_	Ref=MRK_14.27
@@ -15704,7 +15704,7 @@
 23	scriffwit	_	VERB	_	_	9	conj	_	Ref=MRK_14.27
 24	/	_	PUNCT	_	_	26	punct	_	ModernForm=:|Ref=MRK_14.27
 25	Jach	_	PRON	_	_	26	nsubj	_	Ref=MRK_14.27
-26	warder	_	AUX	_	_	23	ccomp	_	Ref=MRK_14.27
+26	warder	_	VERB	_	_	23	ccomp	_	Ref=MRK_14.27
 27	slåendis	_	VERB	_	_	26	xcomp	_	Ref=MRK_14.27
 28	heerdan	_	NOUN	_	_	27	obj	_	Ref=MRK_14.27
 29	/	_	PUNCT	_	_	33	punct	_	Ref=MRK_14.27
@@ -15782,7 +15782,7 @@
 22	resor	_	NOUN	_	_	23	obl	_	Ref=MRK_14.30
 23	galith	_	VERB	_	_	25	advcl	_	Ref=MRK_14.30
 24	/	_	PUNCT	_	_	23	punct	_	Ref=MRK_14.30
-25	warder	_	AUX	_	_	7	ccomp	_	Ref=MRK_14.30
+25	warder	_	VERB	_	_	7	ccomp	_	Ref=MRK_14.30
 26	tw	_	PRON	_	_	25	nsubj	_	Ref=MRK_14.30
 27	tree	_	NUM	_	_	28	nummod	_	Ref=MRK_14.30
 28	resor	_	NOUN	_	_	30	obl	_	Ref=MRK_14.30
@@ -17729,7 +17729,7 @@
 12	Eloi	_	X	_	Foreign=Yes	10	ccomp	_	Ref=MRK_15.34
 13	eloi	_	X	_	Foreign=Yes	12	flat:foreign	_	Ref=MRK_15.34
 14	/	_	PUNCT	_	_	15	punct	_	Ref=MRK_15.34
-15	lamazabactani	_	X	_	Foreign=Yes	12	flat:foreign	_	Ref=MRK_15.34
+15	lamazabactani	_	X	Foreign=Yes	_	12	flat:foreign	_	Ref=MRK_15.34
 16	/	_	PUNCT	_	_	5	punct	_	ModernForm=.|Ref=MRK_15.34
 
 # sent_id = swedish-modern-nt1526-696
@@ -18513,7 +18513,7 @@
 2	ther	_	ADV	_	_	3	advmod	_	Ref=MRK_16.16
 3	troor	_	VERB	_	_	1	acl:relcl	_	Ref=MRK_16.16
 4	och	_	CCONJ	_	_	6	cc	_	Ref=MRK_16.16
-5	bliffnuer	_	AUX	_	Typo=Yes	6	aux	_	CorrectForm=bliffuuer|Ref=MRK_16.16
+5	bliffnuer	_	AUX	_	Typo=Yes	6	aux:pass	_	CorrectForm=bliffuuer|Ref=MRK_16.16
 6	döpt	_	VERB	_	_	3	conj	_	Ref=MRK_16.16
 7	han	_	PRON	_	_	9	nsubj	_	Ref=MRK_16.16
 8	skall	_	AUX	_	_	9	aux	_	Ref=MRK_16.16
@@ -18536,14 +18536,14 @@
 
 # sent_id = swedish-modern-nt1526-730
 # text = Them som troo wardha thenna teeknen effterföliande /
-1	Them	_	PRON	_	_	7	nsubj:pass	_	NewPar=Yes|Ref=MRK_16.17
+1	Them	_	PRON	_	_	4	nsubj	_	NewPar=Yes|Ref=MRK_16.17
 2	som	_	PRON	_	_	3	nsubj	_	Ref=MRK_16.17
 3	troo	_	VERB	_	_	1	acl:relcl	_	Ref=MRK_16.17
-4	wardha	_	AUX	_	_	7	aux:pass	_	Ref=MRK_16.17
+4	wardha	_	VERB	_	_	0	root	_	Ref=MRK_16.17
 5	thenna	_	DET	_	_	6	det	_	Ref=MRK_16.17
 6	teeknen	_	NOUN	_	_	7	obj	_	Ref=MRK_16.17
-7	effterföliande	_	VERB	_	_	0	root	_	Ref=MRK_16.17
-8	/	_	PUNCT	_	_	7	punct	_	ModernForm=.|Ref=MRK_16.17
+7	effterföliande	_	VERB	_	_	4	xcomp	_	Ref=MRK_16.17
+8	/	_	PUNCT	_	_	4	punct	_	ModernForm=.|Ref=MRK_16.17
 
 # sent_id = swedish-modern-nt1526-731
 # text = Genom mit nampn wardha the vthdriffwande dieflanar / the warda talande medh nyia tungor / the warda fördriffuandes ormar / och om the dricka noghot thet dödhelighit är / wardher them thet intit skadhandes /
@@ -18557,12 +18557,12 @@
 8	/	_	PUNCT	_	_	10	punct	_	Ref=MRK_16.17
 9	the	_	PRON	_	_	10	nsubj	_	Ref=MRK_16.17
 10	warda	_	VERB	_	_	4	conj	_	Ref=MRK_16.17
-11	talande	_	VERB	_	_	10	xcomp	_	Ref=MRK_16.17
+11	talande	_	ADJ	_	_	10	xcomp	_	Ref=MRK_16.17
 12	medh	_	ADP	_	_	14	case	_	Ref=MRK_16.17
 13	nyia	_	ADJ	_	_	14	amod	_	Ref=MRK_16.17
 14	tungor	_	NOUN	_	_	11	obl	_	Ref=MRK_16.17
 15	/	_	PUNCT	_	_	17	punct	_	Ref=MRK_16.17
-16	the	_	PRON	_	_	17	nsubj:pass	_	Ref=MRK_16.18
+16	the	_	PRON	_	_	17	nsubj	_	Ref=MRK_16.18
 17	warda	_	VERB	_	_	4	conj	_	Ref=MRK_16.18
 18	fördriffuandes	_	VERB	_	Abbr=Yes	17	xcomp	_	CorrectForm=fördriffuandes|Ref=MRK_16.18
 19	ormar	_	NOUN	_	_	18	obj	_	Ref=MRK_16.18
@@ -18577,7 +18577,7 @@
 28	är	_	AUX	_	_	27	cop	_	Ref=MRK_16.18
 29	/	_	PUNCT	_	_	24	punct	_	Ref=MRK_16.18
 30	wardher	_	VERB	_	_	4	conj	_	Ref=MRK_16.18
-31	them	_	PRON	_	_	30	iobj	_	Ref=MRK_16.18
+31	them	_	PRON	_	_	34	iobj	_	Ref=MRK_16.18
 32	thet	_	PRON	_	_	30	nsubj	_	Ref=MRK_16.18
 33	intit	_	PART	_	_	34	advmod	_	Ref=MRK_16.18
 34	skadhandes	_	VERB	_	_	30	xcomp	_	Ref=MRK_16.18
