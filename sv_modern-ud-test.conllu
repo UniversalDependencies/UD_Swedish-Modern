@@ -1872,8 +1872,8 @@
 4	till	_	ADP	_	_	5	case	_	Ref=MRK_2.27
 5	them	_	PRON	_	_	3	obl	_	Ref=MRK_2.27
 6	/	_	PUNCT	_	_	10	punct	_	Ref=MRK_2.27
-7	sabbatz	_	NOUN	_	Typo=Yes	10	nsubj	_	Ref=MRK_2.27
-8	daghen	_	X	_	_	7	goeswith	_	Ref=MRK_2.27|SplitWord=Yes
+7	sabbatz	_	NOUN	_	_	8	compound	_	Ref=MRK_2.27
+8	daghen	_	NOUN	_	_	10	goeswith	_	Ref=MRK_2.27|SplitWord=Yes
 9	är	_	AUX	_	_	10	cop	_	Ref=MRK_2.27
 10	giordh	_	ADJ	_	_	3	ccomp	_	Ref=MRK_2.27
 11	för	_	ADP	_	_	13	case	_	Ref=MRK_2.27
@@ -1883,9 +1883,9 @@
 15	och	_	CCONJ	_	_	17	cc	_	Ref=MRK_2.27
 16	icke	_	PART	_	_	17	advmod	_	Ref=MRK_2.27
 17	menniskian	_	NOUN	_	Abbr=Yes	10	conj	_	Ref=MRK_2.27
-18	för	_	ADP	_	_	19	case	_	Ref=MRK_2.27
-19	sabbatz	_	NOUN	_	Abbr=Yes	17	orphan	_	Ref=MRK_2.27
-20	daghen	_	X	_	_	19	goeswith	_	Ref=MRK_2.27|SplitWord=Yes
+18	för	_	ADP	_	_	20	case	_	Ref=MRK_2.27
+19	sabbatz	_	NOUN	_	_	20	compound	_	Ref=MRK_2.27
+20	daghen	_	NOUN	_	_	17	orphan	_	Ref=MRK_2.27|SplitWord=Yes
 21	/	_	PUNCT	_	_	10	punct	_	ModernForm=.|Ref=MRK_2.27
 
 # sent_id = swedish-modern-nt1526-72
