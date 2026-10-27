@@ -1873,7 +1873,7 @@
 5	them	_	PRON	_	_	3	obl	_	Ref=MRK_2.27
 6	/	_	PUNCT	_	_	10	punct	_	Ref=MRK_2.27
 7	sabbatz	_	NOUN	_	_	8	compound	_	Ref=MRK_2.27
-8	daghen	_	NOUN	_	_	10	goeswith	_	Ref=MRK_2.27|SplitWord=Yes
+8	daghen	_	NOUN	_	_	10	nsubj	_	Ref=MRK_2.27|SplitWord=Yes
 9	är	_	AUX	_	_	10	cop	_	Ref=MRK_2.27
 10	giordh	_	ADJ	_	_	3	ccomp	_	Ref=MRK_2.27
 11	för	_	ADP	_	_	13	case	_	Ref=MRK_2.27
