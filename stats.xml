@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>735</sentences><tokens>16414</tokens><words>16436</words><fused>22</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>735</sentences><tokens>16414</tokens><words>16436</words><fused>22</fused></test>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="2843" /><!-- /, och, the, han, honom, j, till, ath, them, thå, thet, är, som, ., sadhe -->
+  <fusions unique="21" /><!-- senden, allevndradhe, anammat, befrågadessich, corszfestan, förståth, geffuan, giffuan, gudzordh, görath, kastadhen, omkringseeth, starckmandz, säyadh, teslikesnåghor -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">564</tag><!-- _ -->
+    <tag name="ADP">1402</tag><!-- _ -->
+    <tag name="ADV">1087</tag><!-- _ -->
+    <tag name="AUX">791</tag><!-- _ -->
+    <tag name="CCONJ">1446</tag><!-- _ -->
+    <tag name="DET">475</tag><!-- _ -->
+    <tag name="INTJ">14</tag><!-- _ -->
+    <tag name="NOUN">1924</tag><!-- _ -->
+    <tag name="NUM">83</tag><!-- _ -->
+    <tag name="PART">262</tag><!-- _ -->
+    <tag name="PRON">2924</tag><!-- _ -->
+    <tag name="PROPN">364</tag><!-- _ -->
+    <tag name="PUNCT">2233</tag><!-- _ -->
+    <tag name="SCONJ">357</tag><!-- _ -->
+    <tag name="VERB">2428</tag><!-- _ -->
+    <tag name="X">82</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="4">
+    <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">474</feat><!-- honom, them, then, ther, hans, idher, läryungar, menniskionne, monga, begynte -->
+    <feat name="ExtPos" value="ADV" upos="ADP">14</feat><!-- som -->
+    <feat name="Foreign" value="Yes" upos="X">3</feat><!-- eloi, lamazabactani -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,PROPN,SCONJ,VERB,X">130</feat><!-- j, all, sabbatz, vth, fikona, fölkit, för, huffwudh, mongo, purpur -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="43">
+    <dep name="acl">62</dep>
+    <dep name="acl:cleft">1</dep>
+    <dep name="acl:relcl">236</dep>
+    <dep name="advcl">364</dep>
+    <dep name="advmod">1160</dep>
+    <dep name="amod">240</dep>
+    <dep name="appos">42</dep>
+    <dep name="aux">394</dep>
+    <dep name="aux:pass">58</dep>
+    <dep name="case">1329</dep>
+    <dep name="cc">1442</dep>
+    <dep name="ccomp">409</dep>
+    <dep name="compound">28</dep>
+    <dep name="compound:prt">104</dep>
+    <dep name="conj">1099</dep>
+    <dep name="cop">310</dep>
+    <dep name="csubj">20</dep>
+    <dep name="csubj:pass">1</dep>
+    <dep name="det">466</dep>
+    <dep name="discourse">12</dep>
+    <dep name="dislocated">67</dep>
+    <dep name="expl">29</dep>
+    <dep name="fixed">14</dep>
+    <dep name="flat">5</dep>
+    <dep name="flat:foreign">2</dep>
+    <dep name="flat:name">12</dep>
+    <dep name="goeswith">77</dep>
+    <dep name="iobj">168</dep>
+    <dep name="mark">477</dep>
+    <dep name="nmod">112</dep>
+    <dep name="nmod:poss">462</dep>
+    <dep name="nsubj">1682</dep>
+    <dep name="nsubj:pass">99</dep>
+    <dep name="nummod">38</dep>
+    <dep name="obj">1007</dep>
+    <dep name="obl">1123</dep>
+    <dep name="obl:agent">7</dep>
+    <dep name="orphan">18</dep>
+    <dep name="parataxis">72</dep>
+    <dep name="punct">2233</dep>
+    <dep name="root">735</dep>
+    <dep name="vocative">34</dep>
+    <dep name="xcomp">186</dep>
+  </deps>
+</treebank>
